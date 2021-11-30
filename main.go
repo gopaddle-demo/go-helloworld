@@ -21,7 +21,7 @@ func main() {
 	// After defining our server, we finally "listen and serve" on port 8080
 	// The second argument is the handler, which we will come to later on, but for now it is left as nil,
 	// and the handler defined above (in "HandleFunc") is used
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8087", nil)
 }
 
 // "handler" is our handler function. It has to follow the function signature of a ResponseWriter and Request type
